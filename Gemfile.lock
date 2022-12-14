@@ -51,7 +51,7 @@ GEM
       byebug (~> 8.0)
       pry (~> 0.10)
     public_suffix (4.0.6)
-    rake (11.1.2)
+    rake (13.0.6)
     representable (2.3.0)
       uber (~> 0.0.7)
     retriable (2.1.0)
