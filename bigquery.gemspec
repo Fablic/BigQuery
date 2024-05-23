@@ -16,7 +16,8 @@ Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
 
   s.add_dependency "google-api-client", "~> 0.53.0"
-  s.add_dependency "googleauth", "~> 1.11.0"
+  s.add_dependency "googleauth", "~> 1.8.0"
+  s.add_dependency "faraday", "< 1"
 
   s.add_development_dependency "bundler"
   s.add_development_dependency "rake"
