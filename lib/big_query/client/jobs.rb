@@ -40,7 +40,7 @@ module BigQuery
 
         api(
           @client.get_job_query_results(
-            @project_id, id, deep_symbolize_keys(opts)
+            @project_id, id, **deep_symbolize_keys(opts)
           )
         )
       end
